@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/factorando/static/css/main.b52b113c.css",
+    "main.js": "/factorando/static/js/main.8b54783d.js",
+    "static/js/453.62b5d8e7.chunk.js": "/factorando/static/js/453.62b5d8e7.chunk.js",
+    "index.html": "/factorando/index.html",
+    "main.b52b113c.css.map": "/factorando/static/css/main.b52b113c.css.map",
+    "main.8b54783d.js.map": "/factorando/static/js/main.8b54783d.js.map",
+    "453.62b5d8e7.chunk.js.map": "/factorando/static/js/453.62b5d8e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b52b113c.css",
+    "static/js/main.8b54783d.js"
+  ]
+}
