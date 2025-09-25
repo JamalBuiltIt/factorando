@@ -4,11 +4,11 @@ import './App.css';
 
 const profanityWrapper = (fact) => {
   const intros = [
-    "Holy shit my nigga, did you know",
-    "No fucking way",
-    "Well damn, here's a fact",
-    "This one's wild as hell",
-    "Get this crazy stupid dumb ass shit:"
+    "Woahhh, did you know",
+    "No wayyyy",
+    "Wowww, check this out",
+    "This one's super wild",
+    "Man, listen to this:"
   ];
   const outro = "— wild, huh?";
   const intro = intros[Math.floor(Math.random() * intros.length)];
@@ -24,7 +24,7 @@ function App() {
       const dirtyFact = profanityWrapper(res.data.text);
       setFact(dirtyFact);
     } catch (err) {
-      setFact("F*ck! Couldn't fetch a fact.");
+      setFact("Dang! Couldn't fetch a fact.");
     }
   };
 
@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="fact-box">
-        <h1>🔥 Explicit Random Fact 🔥</h1>
+        <h1>🔥 Random Fact 🔥</h1>
         <p>{fact}</p>
         <button onClick={fetchFact}>Another one</button>
       </div>
